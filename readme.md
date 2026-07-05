@@ -6,6 +6,8 @@ Ce projet est un exercice personnel réalisé par curiosité et dans le but d'ap
 
 ---
 
+<img src="PrintScreen.JPG" alt="Capture d'écran - Music List">
+
 ## 🚀 Fonctionnalités
 
 - Exploration récursive des dossiers
