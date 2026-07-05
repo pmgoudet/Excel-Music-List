@@ -23,9 +23,9 @@ $sheet1->setTitle('Músicas OK');
 
 
 // Escreve um valor nas células A1
-$sheet1->setCellValue('A1', 'Path');
-$sheet1->setCellValue('B1', 'Artista');
-$sheet1->setCellValue('C1', 'Faixa');
+$sheet1->setCellValue('A1', 'Nom du Fichier');
+$sheet1->setCellValue('B1', 'Artiste');
+$sheet1->setCellValue('C1', 'Morceau');
 
 foreach ($listaDeMusicas as $i => $item) {
   $sheet1->setCellValue('A' . $i + 2, $item['artista'] . " - " . $item['faixa']);
