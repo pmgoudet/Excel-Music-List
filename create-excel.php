@@ -48,8 +48,6 @@ foreach ($musicasIgnoradas as $i => $item) {
 // Cria um "exportador" no formato Excel (.xlsx)
 // Ele recebe a planilha que criamos
 $writer = new Xlsx($spreadsheet);
-
-
 echo 'Arquivo criado com sucesso.';
 
 
